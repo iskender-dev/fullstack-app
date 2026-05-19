@@ -1,6 +1,6 @@
 const API_URL = window.location.hostname === "localhost"
     ? "http://localhost:5000"
-    : "YOUR_BACKEND_URL";
+    : "https://fullstack-app-production-e551.up.railway.app/";
 
 
 async function loadTasks() {
